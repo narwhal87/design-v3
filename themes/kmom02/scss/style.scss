@@ -1,0 +1,20 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'main';
+@import 'header';
+
+body {
+    background-color: $background-color;
+    padding-left: 0.5em;
+}
+
+* {
+    color: $font-color;
+}
+
+p {
+  margin-left: 0.1em;
+}
