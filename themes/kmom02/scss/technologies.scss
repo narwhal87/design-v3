@@ -1,0 +1,28 @@
+
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.html, .javascript, .sqlite {
+    grid-column: span 2;
+    justify-self: stretch;
+    border: 2px dotted red;
+}
+
+.css, .php, .git {
+    grid-column: span 1;
+    justify-self: stretch;
+    border: 2px dotted green;
+}
+
+.python {
+    grid-column: span 3;
+    justify-self: stretch;
+    border: 2px dotted blue;
+}

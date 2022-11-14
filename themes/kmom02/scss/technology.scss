@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: 200px auto;
+    gap: 1em 1em;
+}
+
+.wrapper h1 {
+    grid-column: 2;
+    justify-content: center;
+}
+
+.aside {
+    grid-column: span 1;
+    justify-content: center;
+}
+
+.aside ul {
+    list-style-type: none;
+}
+
+.wrapper > .main {
+    grid-column: span 1;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
