@@ -6466,6 +6466,79 @@ div > .logo {
   margin-left: -0.5em;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.html, .javascript, .sqlite {
+  grid-column: span 2;
+  justify-self: stretch;
+  border: 2px dotted red;
+}
+
+.css, .php, .git {
+  grid-column: span 1;
+  justify-self: stretch;
+  border: 2px dotted green;
+}
+
+.python {
+  grid-column: span 3;
+  justify-self: stretch;
+  border: 2px dotted blue;
+}
+
+.wrapper {
+  display: grid;
+  max-width: 960px;
+  grid-template-columns: 200px auto;
+  gap: 1em 1em;
+}
+
+.wrapper h1 {
+  grid-column: 2;
+  justify-content: center;
+}
+
+.aside {
+  grid-column: span 1;
+  justify-content: center;
+}
+
+.aside ul {
+  list-style-type: none;
+}
+
+.wrapper > .main {
+  grid-column: span 1;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
 body {
   background-color: rgb(152, 194, 231);
   padding-left: 0.5em;
@@ -6480,6 +6553,11 @@ p {
   margin-left: 0.1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Kanit", sans-serif;
 }
