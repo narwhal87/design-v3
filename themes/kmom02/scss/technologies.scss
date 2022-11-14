@@ -2,6 +2,8 @@
 .landingpage {
     display: grid;
     gap: 1em 1em;
+    max-width: 600px;
+    font-weight: bold;
 }
 
 .landingpage h1 {
@@ -9,20 +11,24 @@
     justify-self: center;
 }
 
-.html, .javascript, .sqlite {
+.red {
     grid-column: span 2;
     justify-self: stretch;
-    border: 2px dotted red;
+    border: 2px dotted;
+    border-color: #f00;
+    padding: 0.5em;
 }
 
-.css, .php, .git {
+.green {
     grid-column: span 1;
     justify-self: stretch;
-    border: 2px dotted green;
+    border: 2px dotted rgb(34, 111, 34);
+    padding: 0.5em;
 }
 
-.python {
+.blue {
     grid-column: span 3;
     justify-self: stretch;
-    border: 2px dotted blue;
+    border: 2px dotted #00f;
+    padding: 0.5em;
 }
