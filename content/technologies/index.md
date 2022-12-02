@@ -7,30 +7,30 @@ Template: technologies
 Teknologier
 ==========================
 
-<div class="css">
+<div class="green">
 <a href="%base_url%?technologies/sub/css">CSS</a>
 </div>
 
-<div class="html">
+<div class="red">
 <a href="%base_url%?technologies/sub/html">HTML</a>
 </div>
 
-<div class="javascript">
+<div class="red">
 <a href="%base_url%?technologies/sub/javascript">Javascript</a>
 </div>
 
-<div class="php">
+<div class="green">
 <a href="%base_url%?technologies/sub/php">PHP</a>
 </div>
 
-<div class="python">
+<div class="blue">
 <a href="%base_url%?technologies/sub/python">Python</a>
 </div>
 
-<div class="git">
+<div class="green">
 <a href="%base_url%?technologies/sub/git">Git</a>
 </div>
 
-<div class="sqlite">
+<div class="red">
 <a href="%base_url%?technologies/sub/sqlite">SQLite</a>
 </div>

@@ -20,7 +20,13 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass kmom02/scss/style.scss:aurora/css/style.css kmom02/scss/style-dark.scss:aurora/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass kmom02/scss/style.scss:aurora/css/style.min.css kmom02/scss/style-dark.scss:aurora/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
+    "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
   }
 }
