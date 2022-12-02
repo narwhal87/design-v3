@@ -1,0 +1,46 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'main';
+@import 'header';
+@import 'report';
+@import 'technologies';
+@import 'technology';
+@import 'playground';
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Xanh+Mono&display=swap');
+
+body {
+    background-color: $background-color;
+    padding-left: 0.5em;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Xanh Mono', monospace;
+}
+
+p {
+    margin-left: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.main {
+    background-color: yellow;
+}
